@@ -1,7 +1,6 @@
 
 module Main where
--- First, the usual graphql-api Objects
---
+
 
 import Data.Text (Text)
 import GraphQL
@@ -22,6 +21,8 @@ import Data.Time.Clock
 import GraphQL.Subscriptions.Transport.WS.SourceEvent
 import GraphQL.Subscriptions.Transport.WS.ServerOptions
 import GraphQL.Subscriptions.Transport.WS.Server (wsServer)
+
+-- First, we define the usual graphql-api API Objects that define the schema
 
 type Now = Object "Now" '[]
   '[
