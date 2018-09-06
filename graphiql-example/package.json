@@ -1,0 +1,28 @@
+{
+  "main": "index.js",
+  "description": "An example using GraphiQL",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack --mode=development"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.15",
+    "apollo-client": "^2.4.1",
+    "apollo-link-ws": "^1.0.8",
+    "express": "^4.13.3",
+    "express-graphql": "^0.6.6",
+    "graphql-language-service-utils": "1.2.0",
+    "graphiql": "^0.11.11",
+    "graphql": "^0.12.0",
+    "react-apollo": "^2.1.11",
+    "subscriptions-transport-ws": "^0.9.14"
+  },
+  "optionalDependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
